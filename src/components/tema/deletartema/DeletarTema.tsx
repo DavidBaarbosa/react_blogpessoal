@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import type Tema from '../../../models/Tema';
 import { AuthContext } from '../../../contexts/AuthContext';
 import { buscar, deletar } from '../../../services/Service';
